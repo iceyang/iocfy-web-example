@@ -1,0 +1,28 @@
+{
+  "name": "iocfy-web-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=iocfy:* node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iceyang/iocfy-web-example.git"
+  },
+  "keywords": [
+    "iocfy"
+  ],
+  "author": "Justin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iceyang/iocfy-web-example/issues"
+  },
+  "homepage": "https://github.com/iceyang/iocfy-web-example#readme",
+  "dependencies": {
+    "@types/koa": "^2.0.48",
+    "iocfy-ts": "^0.5.0",
+    "koa": "^2.7.0"
+  }
+}
