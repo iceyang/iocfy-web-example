@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/iceyang/iocfy-web-example#readme",
   "dependencies": {
-    "@types/koa": "^2.0.48",
     "iocfy-ts": "^0.5.0",
     "koa": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48"
   }
 }
